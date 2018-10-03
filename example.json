@@ -1,0 +1,87 @@
+{
+	"eligibility": {
+		"2018": {
+			"days":					20,
+			"shift_into_next":		13,
+			"period":				[ "2018-03-01", "2018-12-31" ]
+		},
+		"2019": {
+			"days":					30,
+			"shift_from_prev":		5,
+			"period":				[ "2019-01-01", "2019-12-31" ]
+		}
+	},
+	"holidays": [
+		{ 
+			"day": 	"2018-04-02",
+			"text":	"Ostermontag"
+		},
+		{ 
+			"day": 	"2018-05-01",
+			"text":	"1. Mai"
+		},
+		{ 
+			"day": 	"2018-05-10",
+			"text":	"Himmelfahrt"
+		},
+		{ 
+			"day": 	"2018-05-21",
+			"text":	"Pfingstmontag"
+		},
+		{ 
+			"day": 	"2018-05-31",
+			"text":	"Fronleichnam"
+		},
+		{ 
+			"day": 	"2018-10-03",
+			"text":	"Tag der Einheit"
+		},
+		{ 
+			"day": 	"2018-11-01",
+			"text":	"Allerheiligen"
+		},
+		{ 
+			"day": 	"2018-12-24",
+			"text":	"Weihnachten"
+		},
+		{ 
+			"day": 	"2018-12-25",
+			"text":	"1. Weihnachtsfeiertag"
+		},
+		{ 
+			"day": 	"2018-12-26",
+			"text":	"2. Weihnachtsfeiertag"
+		},
+		{ 
+			"day": 	"2018-12-31",
+			"text":	"Silvester"
+		},
+		{ 
+			"day": 	"2019-01-01",
+			"text":	"Neujahr"
+		},
+		{ 
+			"day": 	"2019-01-06",
+			"text":	"Heilige Drei Könige"
+		}
+	],
+	"request": [
+		{
+			"period": [ "2018-05-01", "2018-05-03" ],
+			"text":		"Test 1"
+		},
+		{
+			"period": "2018-05-31",
+			"text":		"Test 2"
+		},
+		{
+			"period": "2018-06-01",
+			"text":		"Test 3"
+		},
+		{
+			"period": [ "2018-12-20", "2019-01-06" ],
+			"text":		"Test 4"
+		}
+
+	]
+}
